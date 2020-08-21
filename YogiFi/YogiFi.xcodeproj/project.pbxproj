@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C71C410F31BF34AFCC4C4A8 /* Pods_YogiFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEDD4896EC3D18419481597 /* Pods_YogiFi.framework */; };
+		A5456CDF24EBD5C90061F502 /* RESTApiConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CDE24EBD5C90061F502 /* RESTApiConst.swift */; };
+		A5456CE124EBD8630061F502 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CE024EBD8630061F502 /* SignUpModel.swift */; };
+		A5456CE324EBDC3C0061F502 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CE224EBDC3C0061F502 /* RequestFactory.swift */; };
+		A5456CE524EBDD9E0061F502 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CE424EBDD9E0061F502 /* RequestService.swift */; };
+		A5456CE824EBDF580061F502 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CE724EBDF580061F502 /* Reachability.swift */; };
+		A5456CEF24EBE4F60061F502 /* ParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CEE24EBE4F60061F502 /* ParserHelper.swift */; };
+		A5456CF324EBEE440061F502 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CF224EBEE440061F502 /* SignUpViewModel.swift */; };
+		A5456CF524EBF5D70061F502 /* ErrorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CF424EBF5D70061F502 /* ErrorConst.swift */; };
+		A5456CF824EBFAE70061F502 /* SignUpWithEmail+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CF724EBFAE70061F502 /* SignUpWithEmail+Extension.swift */; };
+		A5456CFA24EC00140061F502 /* Loaderanimation.json in Resources */ = {isa = PBXBuildFile; fileRef = A5456CF924EC00140061F502 /* Loaderanimation.json */; };
+		A5456CFC24EC00C10061F502 /* YFLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CFB24EC00C10061F502 /* YFLoadingIndicator.swift */; };
+		A5456CFE24EC0E930061F502 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CFD24EC0E930061F502 /* UIViewController+Extension.swift */; };
+		A5456D0024EC17680061F502 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456CFF24EC17680061F502 /* String+Extension.swift */; };
+		A5456D0224EC2A9C0061F502 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0124EC2A9C0061F502 /* Constants.swift */; };
+		A5456D0424EC338F0061F502 /* eMailVerification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0324EC338F0061F502 /* eMailVerification+Extension.swift */; };
+		A5456D0624EC33B40061F502 /* EmailVerifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0524EC33B40061F502 /* EmailVerifyViewModel.swift */; };
+		A5456D0824EC38C50061F502 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0724EC38C50061F502 /* UITextField+Extension.swift */; };
+		A5456D0A24EC3FDE0061F502 /* SignUpDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0924EC3FDD0061F502 /* SignUpDetailsViewModel.swift */; };
+		A5456D0C24EC42DE0061F502 /* SWEDeatailsScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0B24EC42DE0061F502 /* SWEDeatailsScreen+Extension.swift */; };
+		A5456D0E24EC53AF0061F502 /* UserStepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0D24EC53AF0061F502 /* UserStepTwo.swift */; };
+		A5456D1024EC55540061F502 /* SetGoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D0F24EC55540061F502 /* SetGoalsViewModel.swift */; };
+		A5456D1224EC56230061F502 /* SetGoals+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D1124EC56230061F502 /* SetGoals+Extension.swift */; };
+		A5456D1424EC58060061F502 /* GoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D1324EC58060061F502 /* GoalsModel.swift */; };
+		A5456D1624EC658A0061F502 /* EnterWeight+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D1524EC658A0061F502 /* EnterWeight+Extension.swift */; };
+		A5456D1824EC6A720061F502 /* EnterHeight+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5456D1724EC6A720061F502 /* EnterHeight+Extension.swift */; };
+		A54A35E724ECE22F00B08778 /* GenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A35E624ECE22F00B08778 /* GenderViewModel.swift */; };
+		A54A35E924ECE68E00B08778 /* GenderIdentity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A35E824ECE68E00B08778 /* GenderIdentity+Extension.swift */; };
+		A54C343824EDC18F009767F4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C343724EDC18F009767F4 /* Font.swift */; };
+		A54C343D24EDC36B009767F4 /* namaste.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54C343C24EDC36B009767F4 /* namaste.mp3 */; };
+		A54C343F24EE4843009767F4 /* SocialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C343E24EE4843009767F4 /* SocialViewModel.swift */; };
+		A54C344124EE4BFD009767F4 /* SignUpOptionsScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C344024EE4BFD009767F4 /* SignUpOptionsScreen+Extension.swift */; };
+		A54C344624EE5BC0009767F4 /* SignInOptions+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C344524EE5BC0009767F4 /* SignInOptions+Extension.swift */; };
+		A55F3A6124ED36ED00E2167A /* SignInOptionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F3A6024ED36ED00E2167A /* SignInOptionsScreen.swift */; };
+		A55F3A6524ED371B00E2167A /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F3A6424ED371B00E2167A /* SignInScreen.swift */; };
+		A55F3A6724ED3ACD00E2167A /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F3A6624ED3ACD00E2167A /* SignInViewModel.swift */; };
+		A55F3A6924ED3D3700E2167A /* SignInScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F3A6824ED3D3700E2167A /* SignInScreen+Extension.swift */; };
+		A55F3A6B24ED4DD900E2167A /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F3A6A24ED4DD900E2167A /* SignInModel.swift */; };
+		A55F3A7224EDA16B00E2167A /* YFWebViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F3A7124EDA16B00E2167A /* YFWebViewScreen.swift */; };
+		A578049024EE983800A86ADC /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A578048F24EE983800A86ADC /* UIScrollView+Extension.swift */; };
+		A597473024EDBD6500473C4C /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597472E24EDBD6500473C4C /* OTPFieldView.swift */; };
+		A597473124EDBD6500473C4C /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597472F24EDBD6500473C4C /* OTPTextField.swift */; };
+		C0225BAF24DC2515007F10CC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0225BAE24DC2515007F10CC /* BaseViewController.swift */; };
+		C0225BB124DC44EB007F10CC /* GenderIdentityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0225BB024DC44EA007F10CC /* GenderIdentityScreen.swift */; };
+		C025622724DD04D100D624E8 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C025622624DD04D100D624E8 /* NotoSans-Italic.ttf */; };
+		C025622924DD082600D624E8 /* EnterHeightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025622824DD082600D624E8 /* EnterHeightScreen.swift */; };
+		C025622B24DD088500D624E8 /* YogaExpertiseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025622A24DD088500D624E8 /* YogaExpertiseScreen.swift */; };
+		C02F465224DBBEB900A7C4DC /* SignUpWithEmailDeatailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F465124DBBEB900A7C4DC /* SignUpWithEmailDeatailsScreen.swift */; };
+		C02F465424DBD5C400A7C4DC /* DisplayNameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F465324DBD5C400A7C4DC /* DisplayNameScreen.swift */; };
+		C02F465624DBEBD100A7C4DC /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C02F465524DBEBD100A7C4DC /* NotoSans-BoldItalic.ttf */; };
+		C02F465824DBF90600A7C4DC /* PersonalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F465724DBF90600A7C4DC /* PersonalDetails.swift */; };
+		C02F465A24DC169600A7C4DC /* EnterWeightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F465924DC169600A7C4DC /* EnterWeightScreen.swift */; };
+		C03ED3F824E1230300BD7BE3 /* SetGoalsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03ED3F724E1230300BD7BE3 /* SetGoalsScreen.swift */; };
+		C03ED3FB24E1253F00BD7BE3 /* CustomTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03ED3FA24E1253F00BD7BE3 /* CustomTableViewCells.swift */; };
+		C03ED3FD24E1553C00BD7BE3 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03ED3FC24E1553C00BD7BE3 /* FontExtension.swift */; };
+		C05A752824DA9BF600345AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A752724DA9BF600345AF0 /* AppDelegate.swift */; };
+		C05A753124DA9BFA00345AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05A753024DA9BFA00345AF0 /* Assets.xcassets */; };
+		C05A753424DA9BFA00345AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05A753224DA9BFA00345AF0 /* LaunchScreen.storyboard */; };
+		C05A753F24DA9BFA00345AF0 /* YogiFiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A753E24DA9BFA00345AF0 /* YogiFiTests.swift */; };
+		C05A754A24DA9BFA00345AF0 /* YogiFiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A754924DA9BFA00345AF0 /* YogiFiUITests.swift */; };
+		C05A755824DA9C2A00345AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05A755724DA9C2A00345AF0 /* Main.storyboard */; };
+		C05A755B24DA9C7900345AF0 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C05A755A24DA9C7900345AF0 /* NotoSans-Regular.ttf */; };
+		C05A755D24DAACF900345AF0 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A755C24DAACF900345AF0 /* SignUpScreen.swift */; };
+		C05A755F24DAAD2100345AF0 /* SignUpOptionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A755E24DAAD2100345AF0 /* SignUpOptionsScreen.swift */; };
+		C05A756124DAADEB00345AF0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A756024DAADEB00345AF0 /* UIView+Extension.swift */; };
+		C05A756324DAC3B100345AF0 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C05A756224DAC3B100345AF0 /* NotoSans-Bold.ttf */; };
+		C05A756524DAD2DA00345AF0 /* SignUpWithEmailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A756424DAD2DA00345AF0 /* SignUpWithEmailScreen.swift */; };
+		C05A756724DAD6E400345AF0 /* CustomClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A756624DAD6E400345AF0 /* CustomClasses.swift */; };
+		C0C4924424E26F00005E21E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0C4924324E26F00005E21E2 /* GoogleService-Info.plist */; };
+		C0C4924624E2B29A005E21E2 /* SocialLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4924524E2B29A005E21E2 /* SocialLoginController.swift */; };
+		C0C4924824E2B9BE005E21E2 /* WelcomeToYogiFiScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4924724E2B9BE005E21E2 /* WelcomeToYogiFiScreen.swift */; };
+		C0C4D49424E3E82F00E1FA4B /* eMailVerificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C4D49324E3E82F00E1FA4B /* eMailVerificationScreen.swift */; };
+		C0C4D49624E4002700E1FA4B /* yogifiAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = C0C4D49524E4002600E1FA4B /* yogifiAnimation.json */; };
+		C0DBEFBE24E54C9200BA03A4 /* YogifiStatusScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBEFBD24E54C9200BA03A4 /* YogifiStatusScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C05A753B24DA9BFA00345AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05A751C24DA9BF600345AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05A752324DA9BF600345AF0;
+			remoteInfo = YogiFi;
+		};
+		C05A754624DA9BFA00345AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05A751C24DA9BF600345AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05A752324DA9BF600345AF0;
+			remoteInfo = YogiFi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		375D452717D30351F98D603F /* Pods-YogiFi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogiFi.debug.xcconfig"; path = "Target Support Files/Pods-YogiFi/Pods-YogiFi.debug.xcconfig"; sourceTree = "<group>"; };
+		59EB7F4DD478D949BC7BB2D4 /* Pods-YogiFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogiFi.release.xcconfig"; path = "Target Support Files/Pods-YogiFi/Pods-YogiFi.release.xcconfig"; sourceTree = "<group>"; };
+		8EEDD4896EC3D18419481597 /* Pods_YogiFi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogiFi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5456CDE24EBD5C90061F502 /* RESTApiConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTApiConst.swift; sourceTree = "<group>"; };
+		A5456CE024EBD8630061F502 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		A5456CE224EBDC3C0061F502 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		A5456CE424EBDD9E0061F502 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		A5456CE724EBDF580061F502 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A5456CEE24EBE4F60061F502 /* ParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserHelper.swift; sourceTree = "<group>"; };
+		A5456CF224EBEE440061F502 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		A5456CF424EBF5D70061F502 /* ErrorConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorConst.swift; sourceTree = "<group>"; };
+		A5456CF724EBFAE70061F502 /* SignUpWithEmail+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpWithEmail+Extension.swift"; sourceTree = "<group>"; };
+		A5456CF924EC00140061F502 /* Loaderanimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loaderanimation.json; sourceTree = "<group>"; };
+		A5456CFB24EC00C10061F502 /* YFLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFLoadingIndicator.swift; sourceTree = "<group>"; };
+		A5456CFD24EC0E930061F502 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		A5456CFF24EC17680061F502 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		A5456D0124EC2A9C0061F502 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A5456D0324EC338F0061F502 /* eMailVerification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "eMailVerification+Extension.swift"; sourceTree = "<group>"; };
+		A5456D0524EC33B40061F502 /* EmailVerifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerifyViewModel.swift; sourceTree = "<group>"; };
+		A5456D0724EC38C50061F502 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		A5456D0924EC3FDD0061F502 /* SignUpDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDetailsViewModel.swift; sourceTree = "<group>"; };
+		A5456D0B24EC42DE0061F502 /* SWEDeatailsScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWEDeatailsScreen+Extension.swift"; sourceTree = "<group>"; };
+		A5456D0D24EC53AF0061F502 /* UserStepTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStepTwo.swift; sourceTree = "<group>"; };
+		A5456D0F24EC55540061F502 /* SetGoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalsViewModel.swift; sourceTree = "<group>"; };
+		A5456D1124EC56230061F502 /* SetGoals+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SetGoals+Extension.swift"; sourceTree = "<group>"; };
+		A5456D1324EC58060061F502 /* GoalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsModel.swift; sourceTree = "<group>"; };
+		A5456D1524EC658A0061F502 /* EnterWeight+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnterWeight+Extension.swift"; sourceTree = "<group>"; };
+		A5456D1724EC6A720061F502 /* EnterHeight+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnterHeight+Extension.swift"; sourceTree = "<group>"; };
+		A54A35E624ECE22F00B08778 /* GenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewModel.swift; sourceTree = "<group>"; };
+		A54A35E824ECE68E00B08778 /* GenderIdentity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GenderIdentity+Extension.swift"; sourceTree = "<group>"; };
+		A54C343724EDC18F009767F4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		A54C343C24EDC36B009767F4 /* namaste.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = namaste.mp3; sourceTree = "<group>"; };
+		A54C343E24EE4843009767F4 /* SocialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewModel.swift; sourceTree = "<group>"; };
+		A54C344024EE4BFD009767F4 /* SignUpOptionsScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpOptionsScreen+Extension.swift"; sourceTree = "<group>"; };
+		A54C344524EE5BC0009767F4 /* SignInOptions+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInOptions+Extension.swift"; sourceTree = "<group>"; };
+		A55F3A6024ED36ED00E2167A /* SignInOptionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOptionsScreen.swift; sourceTree = "<group>"; };
+		A55F3A6424ED371B00E2167A /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		A55F3A6624ED3ACD00E2167A /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		A55F3A6824ED3D3700E2167A /* SignInScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInScreen+Extension.swift"; sourceTree = "<group>"; };
+		A55F3A6A24ED4DD900E2167A /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		A55F3A6C24ED6C0000E2167A /* YogiFi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YogiFi.entitlements; sourceTree = "<group>"; };
+		A55F3A7124EDA16B00E2167A /* YFWebViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFWebViewScreen.swift; sourceTree = "<group>"; };
+		A578048F24EE983800A86ADC /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		A597472E24EDBD6500473C4C /* OTPFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
+		A597472F24EDBD6500473C4C /* OTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		C0225BAE24DC2515007F10CC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C0225BB024DC44EA007F10CC /* GenderIdentityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderIdentityScreen.swift; sourceTree = "<group>"; };
+		C025622624DD04D100D624E8 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		C025622824DD082600D624E8 /* EnterHeightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterHeightScreen.swift; sourceTree = "<group>"; };
+		C025622A24DD088500D624E8 /* YogaExpertiseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaExpertiseScreen.swift; sourceTree = "<group>"; };
+		C02F465124DBBEB900A7C4DC /* SignUpWithEmailDeatailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmailDeatailsScreen.swift; sourceTree = "<group>"; };
+		C02F465324DBD5C400A7C4DC /* DisplayNameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNameScreen.swift; sourceTree = "<group>"; };
+		C02F465524DBEBD100A7C4DC /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C02F465724DBF90600A7C4DC /* PersonalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetails.swift; sourceTree = "<group>"; };
+		C02F465924DC169600A7C4DC /* EnterWeightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterWeightScreen.swift; sourceTree = "<group>"; };
+		C03ED3F724E1230300BD7BE3 /* SetGoalsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalsScreen.swift; sourceTree = "<group>"; };
+		C03ED3FA24E1253F00BD7BE3 /* CustomTableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCells.swift; sourceTree = "<group>"; };
+		C03ED3FC24E1553C00BD7BE3 /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		C05A752424DA9BF600345AF0 /* YogiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05A752724DA9BF600345AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C05A753024DA9BFA00345AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05A753324DA9BFA00345AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C05A753524DA9BFA00345AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05A753A24DA9BFA00345AF0 /* YogiFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogiFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05A753E24DA9BFA00345AF0 /* YogiFiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogiFiTests.swift; sourceTree = "<group>"; };
+		C05A754024DA9BFA00345AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05A754524DA9BFA00345AF0 /* YogiFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogiFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05A754924DA9BFA00345AF0 /* YogiFiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogiFiUITests.swift; sourceTree = "<group>"; };
+		C05A754B24DA9BFA00345AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05A755724DA9C2A00345AF0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C05A755A24DA9C7900345AF0 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		C05A755C24DAACF900345AF0 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		C05A755E24DAAD2100345AF0 /* SignUpOptionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpOptionsScreen.swift; sourceTree = "<group>"; };
+		C05A756024DAADEB00345AF0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C05A756224DAC3B100345AF0 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		C05A756424DAD2DA00345AF0 /* SignUpWithEmailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmailScreen.swift; sourceTree = "<group>"; };
+		C05A756624DAD6E400345AF0 /* CustomClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClasses.swift; sourceTree = "<group>"; };
+		C0C4924324E26F00005E21E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0C4924524E2B29A005E21E2 /* SocialLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginController.swift; sourceTree = "<group>"; };
+		C0C4924724E2B9BE005E21E2 /* WelcomeToYogiFiScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeToYogiFiScreen.swift; sourceTree = "<group>"; };
+		C0C4D49324E3E82F00E1FA4B /* eMailVerificationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMailVerificationScreen.swift; sourceTree = "<group>"; };
+		C0C4D49524E4002600E1FA4B /* yogifiAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yogifiAnimation.json; sourceTree = "<group>"; };
+		C0DBEFBD24E54C9200BA03A4 /* YogifiStatusScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogifiStatusScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05A752124DA9BF600345AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C71C410F31BF34AFCC4C4A8 /* Pods_YogiFi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A753724DA9BFA00345AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A754224DA9BFA00345AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BEC2FFE07D510E4F0831396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375D452717D30351F98D603F /* Pods-YogiFi.debug.xcconfig */,
+				59EB7F4DD478D949BC7BB2D4 /* Pods-YogiFi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5456CCB24EBB7EF0061F502 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A5456CCC24EBB8040061F502 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C0C4D49524E4002600E1FA4B /* yogifiAnimation.json */,
+				A5456CF924EC00140061F502 /* Loaderanimation.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		A5456CCD24EBB8200061F502 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C05A756024DAADEB00345AF0 /* UIView+Extension.swift */,
+				C03ED3FC24E1553C00BD7BE3 /* FontExtension.swift */,
+				A5456CFD24EC0E930061F502 /* UIViewController+Extension.swift */,
+				A5456CFF24EC17680061F502 /* String+Extension.swift */,
+				A5456D0724EC38C50061F502 /* UITextField+Extension.swift */,
+				A578048F24EE983800A86ADC /* UIScrollView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5456CCE24EBB8310061F502 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A54C343924EDC2E8009767F4 /* OTPView */,
+				C05A756624DAD6E400345AF0 /* CustomClasses.swift */,
+				A5456CFB24EC00C10061F502 /* YFLoadingIndicator.swift */,
+				A5456D0D24EC53AF0061F502 /* UserStepTwo.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		A5456CD024EBC0AD0061F502 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C05A753224DA9BFA00345AF0 /* LaunchScreen.storyboard */,
+				C05A755724DA9C2A00345AF0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5456CD124EBC0CE0061F502 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CE024EBD8630061F502 /* SignUpModel.swift */,
+				A5456D1324EC58060061F502 /* GoalsModel.swift */,
+				A55F3A6A24ED4DD900E2167A /* SignInModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5456CD224EBC0DD0061F502 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CF224EBEE440061F502 /* SignUpViewModel.swift */,
+				A5456D0524EC33B40061F502 /* EmailVerifyViewModel.swift */,
+				A5456D0924EC3FDD0061F502 /* SignUpDetailsViewModel.swift */,
+				A5456D0F24EC55540061F502 /* SetGoalsViewModel.swift */,
+				A54A35E624ECE22F00B08778 /* GenderViewModel.swift */,
+				A55F3A6624ED3ACD00E2167A /* SignInViewModel.swift */,
+				A54C343E24EE4843009767F4 /* SocialViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5456CD424EBC1110061F502 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C05A752724DA9BF600345AF0 /* AppDelegate.swift */,
+				C05A753524DA9BFA00345AF0 /* Info.plist */,
+				C0C4924324E26F00005E21E2 /* GoogleService-Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A5456CD524EBC13E0061F502 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				C05A753024DA9BFA00345AF0 /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		A5456CD624EBCDEC0061F502 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CE624EBDF330061F502 /* Resources */,
+				A5456CD824EBCF050061F502 /* Network */,
+				A5456CD724EBCEF50061F502 /* Parser */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A5456CD724EBCEF50061F502 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CEE24EBE4F60061F502 /* ParserHelper.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		A5456CD824EBCF050061F502 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CE224EBDC3C0061F502 /* RequestFactory.swift */,
+				A5456CE424EBDD9E0061F502 /* RequestService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A5456CD924EBD2140061F502 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CDE24EBD5C90061F502 /* RESTApiConst.swift */,
+				A5456CF424EBF5D70061F502 /* ErrorConst.swift */,
+				A5456D0124EC2A9C0061F502 /* Constants.swift */,
+				A54C343724EDC18F009767F4 /* Font.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A5456CE624EBDF330061F502 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CE724EBDF580061F502 /* Reachability.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5456CF624EBFA8A0061F502 /* ControllerExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CF724EBFAE70061F502 /* SignUpWithEmail+Extension.swift */,
+				A5456D0324EC338F0061F502 /* eMailVerification+Extension.swift */,
+				A5456D0B24EC42DE0061F502 /* SWEDeatailsScreen+Extension.swift */,
+				A5456D1124EC56230061F502 /* SetGoals+Extension.swift */,
+				A5456D1524EC658A0061F502 /* EnterWeight+Extension.swift */,
+				A5456D1724EC6A720061F502 /* EnterHeight+Extension.swift */,
+				A54A35E824ECE68E00B08778 /* GenderIdentity+Extension.swift */,
+				A55F3A6824ED3D3700E2167A /* SignInScreen+Extension.swift */,
+				A54C344024EE4BFD009767F4 /* SignUpOptionsScreen+Extension.swift */,
+				A54C344524EE5BC0009767F4 /* SignInOptions+Extension.swift */,
+			);
+			path = ControllerExtensions;
+			sourceTree = "<group>";
+		};
+		A54C343924EDC2E8009767F4 /* OTPView */ = {
+			isa = PBXGroup;
+			children = (
+				A597472E24EDBD6500473C4C /* OTPFieldView.swift */,
+				A597472F24EDBD6500473C4C /* OTPTextField.swift */,
+			);
+			path = OTPView;
+			sourceTree = "<group>";
+		};
+		A54C343A24EDC305009767F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A54C343B24EDC312009767F4 /* Audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A54C343B24EDC312009767F4 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A54C343C24EDC36B009767F4 /* namaste.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		C02F465024DBB95A00A7C4DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5456CF624EBFA8A0061F502 /* ControllerExtensions */,
+				C05A755C24DAACF900345AF0 /* SignUpScreen.swift */,
+				C05A755E24DAAD2100345AF0 /* SignUpOptionsScreen.swift */,
+				C05A756424DAD2DA00345AF0 /* SignUpWithEmailScreen.swift */,
+				C02F465124DBBEB900A7C4DC /* SignUpWithEmailDeatailsScreen.swift */,
+				C02F465324DBD5C400A7C4DC /* DisplayNameScreen.swift */,
+				C02F465724DBF90600A7C4DC /* PersonalDetails.swift */,
+				C02F465924DC169600A7C4DC /* EnterWeightScreen.swift */,
+				C025622824DD082600D624E8 /* EnterHeightScreen.swift */,
+				C0225BB024DC44EA007F10CC /* GenderIdentityScreen.swift */,
+				C025622A24DD088500D624E8 /* YogaExpertiseScreen.swift */,
+				C03ED3F724E1230300BD7BE3 /* SetGoalsScreen.swift */,
+				C0225BAE24DC2515007F10CC /* BaseViewController.swift */,
+				C0C4924524E2B29A005E21E2 /* SocialLoginController.swift */,
+				C0C4924724E2B9BE005E21E2 /* WelcomeToYogiFiScreen.swift */,
+				C0C4D49324E3E82F00E1FA4B /* eMailVerificationScreen.swift */,
+				C0DBEFBD24E54C9200BA03A4 /* YogifiStatusScreen.swift */,
+				A55F3A6024ED36ED00E2167A /* SignInOptionsScreen.swift */,
+				A55F3A6424ED371B00E2167A /* SignInScreen.swift */,
+				A55F3A7124EDA16B00E2167A /* YFWebViewScreen.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C03ED3F924E1251400BD7BE3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C03ED3FA24E1253F00BD7BE3 /* CustomTableViewCells.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C05A751B24DA9BF600345AF0 = {
+			isa = PBXGroup;
+			children = (
+				C05A752624DA9BF600345AF0 /* YogiFi */,
+				C05A753D24DA9BFA00345AF0 /* YogiFiTests */,
+				C05A754824DA9BFA00345AF0 /* YogiFiUITests */,
+				C05A752524DA9BF600345AF0 /* Products */,
+				2BEC2FFE07D510E4F0831396 /* Pods */,
+				F372000948B1FB46BC9E57FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C05A752524DA9BF600345AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05A752424DA9BF600345AF0 /* YogiFi.app */,
+				C05A753A24DA9BFA00345AF0 /* YogiFiTests.xctest */,
+				C05A754524DA9BFA00345AF0 /* YogiFiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05A752624DA9BF600345AF0 /* YogiFi */ = {
+			isa = PBXGroup;
+			children = (
+				A55F3A6C24ED6C0000E2167A /* YogiFi.entitlements */,
+				A54C343A24EDC305009767F4 /* Resources */,
+				A5456CD924EBD2140061F502 /* Constants */,
+				A5456CD624EBCDEC0061F502 /* Service */,
+				A5456CD524EBC13E0061F502 /* Assests */,
+				A5456CD424EBC1110061F502 /* SupportingFiles */,
+				A5456CCE24EBB8310061F502 /* CustomClasses */,
+				A5456CCD24EBB8200061F502 /* Extensions */,
+				A5456CCC24EBB8040061F502 /* Animations */,
+				A5456CCB24EBB7EF0061F502 /* Helpers */,
+				C05A755924DA9C5B00345AF0 /* NotoSans - Font */,
+				C03ED3F924E1251400BD7BE3 /* CustomViews */,
+				A5456CD124EBC0CE0061F502 /* Model */,
+				A5456CD224EBC0DD0061F502 /* ViewModel */,
+				A5456CD024EBC0AD0061F502 /* View */,
+				C02F465024DBB95A00A7C4DC /* Controller */,
+			);
+			path = YogiFi;
+			sourceTree = "<group>";
+		};
+		C05A753D24DA9BFA00345AF0 /* YogiFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C05A753E24DA9BFA00345AF0 /* YogiFiTests.swift */,
+				C05A754024DA9BFA00345AF0 /* Info.plist */,
+			);
+			path = YogiFiTests;
+			sourceTree = "<group>";
+		};
+		C05A754824DA9BFA00345AF0 /* YogiFiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C05A754924DA9BFA00345AF0 /* YogiFiUITests.swift */,
+				C05A754B24DA9BFA00345AF0 /* Info.plist */,
+			);
+			path = YogiFiUITests;
+			sourceTree = "<group>";
+		};
+		C05A755924DA9C5B00345AF0 /* NotoSans - Font */ = {
+			isa = PBXGroup;
+			children = (
+				C05A755A24DA9C7900345AF0 /* NotoSans-Regular.ttf */,
+				C05A756224DAC3B100345AF0 /* NotoSans-Bold.ttf */,
+				C02F465524DBEBD100A7C4DC /* NotoSans-BoldItalic.ttf */,
+				C025622624DD04D100D624E8 /* NotoSans-Italic.ttf */,
+			);
+			path = "NotoSans - Font";
+			sourceTree = "<group>";
+		};
+		F372000948B1FB46BC9E57FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDD4896EC3D18419481597 /* Pods_YogiFi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05A752324DA9BF600345AF0 /* YogiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05A754E24DA9BFA00345AF0 /* Build configuration list for PBXNativeTarget "YogiFi" */;
+			buildPhases = (
+				3C3D130B3F03D2CF588F251B /* [CP] Check Pods Manifest.lock */,
+				C05A752024DA9BF600345AF0 /* Sources */,
+				C05A752124DA9BF600345AF0 /* Frameworks */,
+				C05A752224DA9BF600345AF0 /* Resources */,
+				D43795826464CADEBD21776D /* [CP] Embed Pods Frameworks */,
+				389395C6F4226A70B1A2B066 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogiFi;
+			productName = YogiFi;
+			productReference = C05A752424DA9BF600345AF0 /* YogiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C05A753924DA9BFA00345AF0 /* YogiFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05A755124DA9BFA00345AF0 /* Build configuration list for PBXNativeTarget "YogiFiTests" */;
+			buildPhases = (
+				C05A753624DA9BFA00345AF0 /* Sources */,
+				C05A753724DA9BFA00345AF0 /* Frameworks */,
+				C05A753824DA9BFA00345AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05A753C24DA9BFA00345AF0 /* PBXTargetDependency */,
+			);
+			name = YogiFiTests;
+			productName = YogiFiTests;
+			productReference = C05A753A24DA9BFA00345AF0 /* YogiFiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C05A754424DA9BFA00345AF0 /* YogiFiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05A755424DA9BFA00345AF0 /* Build configuration list for PBXNativeTarget "YogiFiUITests" */;
+			buildPhases = (
+				C05A754124DA9BFA00345AF0 /* Sources */,
+				C05A754224DA9BFA00345AF0 /* Frameworks */,
+				C05A754324DA9BFA00345AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05A754724DA9BFA00345AF0 /* PBXTargetDependency */,
+			);
+			name = YogiFiUITests;
+			productName = YogiFiUITests;
+			productReference = C05A754524DA9BFA00345AF0 /* YogiFiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05A751C24DA9BF600345AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "GANTA PRAVEEN KUMAR";
+				TargetAttributes = {
+					C05A752324DA9BF600345AF0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C05A753924DA9BFA00345AF0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C05A752324DA9BF600345AF0;
+					};
+					C05A754424DA9BFA00345AF0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C05A752324DA9BF600345AF0;
+					};
+				};
+			};
+			buildConfigurationList = C05A751F24DA9BF600345AF0 /* Build configuration list for PBXProject "YogiFi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C05A751B24DA9BF600345AF0;
+			productRefGroup = C05A752524DA9BF600345AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05A752324DA9BF600345AF0 /* YogiFi */,
+				C05A753924DA9BFA00345AF0 /* YogiFiTests */,
+				C05A754424DA9BFA00345AF0 /* YogiFiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05A752224DA9BF600345AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02F465624DBEBD100A7C4DC /* NotoSans-BoldItalic.ttf in Resources */,
+				C0C4924424E26F00005E21E2 /* GoogleService-Info.plist in Resources */,
+				C05A755B24DA9C7900345AF0 /* NotoSans-Regular.ttf in Resources */,
+				C05A755824DA9C2A00345AF0 /* Main.storyboard in Resources */,
+				A5456CFA24EC00140061F502 /* Loaderanimation.json in Resources */,
+				C05A753424DA9BFA00345AF0 /* LaunchScreen.storyboard in Resources */,
+				C025622724DD04D100D624E8 /* NotoSans-Italic.ttf in Resources */,
+				C05A756324DAC3B100345AF0 /* NotoSans-Bold.ttf in Resources */,
+				C05A753124DA9BFA00345AF0 /* Assets.xcassets in Resources */,
+				A54C343D24EDC36B009767F4 /* namaste.mp3 in Resources */,
+				C0C4D49624E4002700E1FA4B /* yogifiAnimation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A753824DA9BFA00345AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A754324DA9BFA00345AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		389395C6F4226A70B1A2B066 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogiFi/Pods-YogiFi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogiFi/Pods-YogiFi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YogiFi/Pods-YogiFi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C3D130B3F03D2CF588F251B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YogiFi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43795826464CADEBD21776D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogiFi/Pods-YogiFi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogiFi/Pods-YogiFi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YogiFi/Pods-YogiFi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05A752024DA9BF600345AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5456CFE24EC0E930061F502 /* UIViewController+Extension.swift in Sources */,
+				A5456D0224EC2A9C0061F502 /* Constants.swift in Sources */,
+				A5456D0024EC17680061F502 /* String+Extension.swift in Sources */,
+				A5456CE324EBDC3C0061F502 /* RequestFactory.swift in Sources */,
+				C0C4924624E2B29A005E21E2 /* SocialLoginController.swift in Sources */,
+				A597473124EDBD6500473C4C /* OTPTextField.swift in Sources */,
+				A54A35E924ECE68E00B08778 /* GenderIdentity+Extension.swift in Sources */,
+				C03ED3F824E1230300BD7BE3 /* SetGoalsScreen.swift in Sources */,
+				A5456CE124EBD8630061F502 /* SignUpModel.swift in Sources */,
+				A5456D1824EC6A720061F502 /* EnterHeight+Extension.swift in Sources */,
+				C0DBEFBE24E54C9200BA03A4 /* YogifiStatusScreen.swift in Sources */,
+				A5456D1624EC658A0061F502 /* EnterWeight+Extension.swift in Sources */,
+				C0225BAF24DC2515007F10CC /* BaseViewController.swift in Sources */,
+				A5456D0E24EC53AF0061F502 /* UserStepTwo.swift in Sources */,
+				A54C343F24EE4843009767F4 /* SocialViewModel.swift in Sources */,
+				C05A756124DAADEB00345AF0 /* UIView+Extension.swift in Sources */,
+				A597473024EDBD6500473C4C /* OTPFieldView.swift in Sources */,
+				A55F3A6724ED3ACD00E2167A /* SignInViewModel.swift in Sources */,
+				A5456CF324EBEE440061F502 /* SignUpViewModel.swift in Sources */,
+				A578049024EE983800A86ADC /* UIScrollView+Extension.swift in Sources */,
+				C05A756724DAD6E400345AF0 /* CustomClasses.swift in Sources */,
+				C0225BB124DC44EB007F10CC /* GenderIdentityScreen.swift in Sources */,
+				C03ED3FD24E1553C00BD7BE3 /* FontExtension.swift in Sources */,
+				C02F465824DBF90600A7C4DC /* PersonalDetails.swift in Sources */,
+				C025622924DD082600D624E8 /* EnterHeightScreen.swift in Sources */,
+				A5456CE824EBDF580061F502 /* Reachability.swift in Sources */,
+				A5456CF824EBFAE70061F502 /* SignUpWithEmail+Extension.swift in Sources */,
+				C02F465A24DC169600A7C4DC /* EnterWeightScreen.swift in Sources */,
+				A5456CFC24EC00C10061F502 /* YFLoadingIndicator.swift in Sources */,
+				A55F3A6124ED36ED00E2167A /* SignInOptionsScreen.swift in Sources */,
+				A5456D1424EC58060061F502 /* GoalsModel.swift in Sources */,
+				A5456CE524EBDD9E0061F502 /* RequestService.swift in Sources */,
+				A5456D0A24EC3FDE0061F502 /* SignUpDetailsViewModel.swift in Sources */,
+				A5456D0C24EC42DE0061F502 /* SWEDeatailsScreen+Extension.swift in Sources */,
+				A54C344624EE5BC0009767F4 /* SignInOptions+Extension.swift in Sources */,
+				A5456CEF24EBE4F60061F502 /* ParserHelper.swift in Sources */,
+				C05A752824DA9BF600345AF0 /* AppDelegate.swift in Sources */,
+				C0C4924824E2B9BE005E21E2 /* WelcomeToYogiFiScreen.swift in Sources */,
+				A55F3A6B24ED4DD900E2167A /* SignInModel.swift in Sources */,
+				C03ED3FB24E1253F00BD7BE3 /* CustomTableViewCells.swift in Sources */,
+				C05A755F24DAAD2100345AF0 /* SignUpOptionsScreen.swift in Sources */,
+				C05A755D24DAACF900345AF0 /* SignUpScreen.swift in Sources */,
+				A55F3A7224EDA16B00E2167A /* YFWebViewScreen.swift in Sources */,
+				A5456CDF24EBD5C90061F502 /* RESTApiConst.swift in Sources */,
+				C0C4D49424E3E82F00E1FA4B /* eMailVerificationScreen.swift in Sources */,
+				C02F465424DBD5C400A7C4DC /* DisplayNameScreen.swift in Sources */,
+				A5456CF524EBF5D70061F502 /* ErrorConst.swift in Sources */,
+				A54C343824EDC18F009767F4 /* Font.swift in Sources */,
+				A54C344124EE4BFD009767F4 /* SignUpOptionsScreen+Extension.swift in Sources */,
+				C025622B24DD088500D624E8 /* YogaExpertiseScreen.swift in Sources */,
+				A5456D1224EC56230061F502 /* SetGoals+Extension.swift in Sources */,
+				A54A35E724ECE22F00B08778 /* GenderViewModel.swift in Sources */,
+				A5456D0424EC338F0061F502 /* eMailVerification+Extension.swift in Sources */,
+				A55F3A6924ED3D3700E2167A /* SignInScreen+Extension.swift in Sources */,
+				C02F465224DBBEB900A7C4DC /* SignUpWithEmailDeatailsScreen.swift in Sources */,
+				A5456D0624EC33B40061F502 /* EmailVerifyViewModel.swift in Sources */,
+				A55F3A6524ED371B00E2167A /* SignInScreen.swift in Sources */,
+				A5456D0824EC38C50061F502 /* UITextField+Extension.swift in Sources */,
+				C05A756524DAD2DA00345AF0 /* SignUpWithEmailScreen.swift in Sources */,
+				A5456D1024EC55540061F502 /* SetGoalsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A753624DA9BFA00345AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05A753F24DA9BFA00345AF0 /* YogiFiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A754124DA9BFA00345AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05A754A24DA9BFA00345AF0 /* YogiFiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C05A753C24DA9BFA00345AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05A752324DA9BF600345AF0 /* YogiFi */;
+			targetProxy = C05A753B24DA9BFA00345AF0 /* PBXContainerItemProxy */;
+		};
+		C05A754724DA9BFA00345AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05A752324DA9BF600345AF0 /* YogiFi */;
+			targetProxy = C05A754624DA9BFA00345AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C05A753224DA9BFA00345AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05A753324DA9BFA00345AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05A754C24DA9BFA00345AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C05A754D24DA9BFA00345AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C05A754F24DA9BFA00345AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375D452717D30351F98D603F /* Pods-YogiFi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YogiFi/YogiFi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 9XAVP2V72K;
+				INFOPLIST_FILE = YogiFi/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 7.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogifi.applications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C05A755024DA9BFA00345AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EB7F4DD478D949BC7BB2D4 /* Pods-YogiFi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YogiFi/YogiFi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 9XAVP2V72K;
+				INFOPLIST_FILE = YogiFi/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 7.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogifi.applications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C05A755224DA9BFA00345AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PVLLN695R;
+				INFOPLIST_FILE = YogiFiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inno.firebase.YogiFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogiFi.app/YogiFi";
+			};
+			name = Debug;
+		};
+		C05A755324DA9BFA00345AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PVLLN695R;
+				INFOPLIST_FILE = YogiFiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inno.firebase.YogiFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogiFi.app/YogiFi";
+			};
+			name = Release;
+		};
+		C05A755524DA9BFA00345AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PVLLN695R;
+				INFOPLIST_FILE = YogiFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inno.firebase.YogiFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YogiFi;
+			};
+			name = Debug;
+		};
+		C05A755624DA9BFA00345AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PVLLN695R;
+				INFOPLIST_FILE = YogiFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inno.firebase.YogiFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YogiFi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05A751F24DA9BF600345AF0 /* Build configuration list for PBXProject "YogiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A754C24DA9BFA00345AF0 /* Debug */,
+				C05A754D24DA9BFA00345AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05A754E24DA9BFA00345AF0 /* Build configuration list for PBXNativeTarget "YogiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A754F24DA9BFA00345AF0 /* Debug */,
+				C05A755024DA9BFA00345AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05A755124DA9BFA00345AF0 /* Build configuration list for PBXNativeTarget "YogiFiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A755224DA9BFA00345AF0 /* Debug */,
+				C05A755324DA9BFA00345AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05A755424DA9BFA00345AF0 /* Build configuration list for PBXNativeTarget "YogiFiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A755524DA9BFA00345AF0 /* Debug */,
+				C05A755624DA9BFA00345AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05A751C24DA9BF600345AF0 /* Project object */;
+}
